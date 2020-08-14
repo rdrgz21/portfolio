@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Open+Sans:ital,wght@0,400;1,300&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/0c74f0041f.js" crossorigin="anonymous"></script>
+    <title>Tom Rodriguez - Portfolio</title>
+</head>
+<body>
+    <nav>
+        <a href="#firstContainer" id="tmrdrgz">tm<span id="rdrgz">rdrgz</span></a>
+        <a href="#aboutContainer">About</a>
+        <a href="#projectsContainer">Projects</a>
+        <a href="#contactContainer">Contact</a>
+    </nav>
+    <div class="first-container" id="firstContainer">
+
+        
+        <div class="carousel-container" >
+            <div class="carousel-slide">
+                <p class="en-text">Hi 👋<br> I'm <span class="highlight">Tom</span>.<br> I'm a web developer.</p>
+                <p class="es-text">Hola 👋<br> Soy <span class="highlight">Tom</span>.<br> Soy desarrollador web.</p>
+                <p class="ja-text">こんにちは 👋<br> <span class="highlight">トム</span>です。<br> <span id="jaWeb">Web</span>デベロッパーです。</p>
+            </div>
+        </div>
+        <div class="buttons-container">
+            <button id="enBtn" autofocus>EN</button>
+
+            <button id="esBtn">ES</button>
+
+            <button id="jaBtn">JA</button>
+        </div>
+        
+        <!-- <h1>Hi, welcome to my Portfolio</h1>
+        <button id="alert-button">Click Me</button> -->
+
+    </div>
+
+    <div class="second-container" id="aboutContainer">
+        <h1 class="section-title" id="aboutTitle">About</h1>
+        <img class="me-pic" src="img/me.jpg" alt="Me">
+        <p>Hi, I'm Tom Rodríguez. I'm a web developer and language learning enthusiast living in Manchester, UK. 
+            <br>
+            <br>
+            Just over three months ago, I left my job as a translation project manager and decided to throw myself into the wonderful world of web development.
+            <br>
+            <br>
+            To kick-start my career, I completed the 12-week full-stack Javascript bootcamp at Code Nation, over the course of which I created several projects that you can check out below!
+            <br>
+            <br>
+            In my free time, I like learning languages 🌎 drinking coffee ☕️ and working out 🏋️‍♂️.</p>
+    </div>
+
+    <div class="third-container" id="projectsContainer">
+        <h1 class="section-title" id="projectsTitle">Projects</h1>
+        <div class="projects-flexbox">
+
+
+            <div class="project-box project-1" id="0">
+                <img class="project-box-image" src="./img/quizzical1.png" alt="quizzical-image">
+                <div class="project-box-middle">
+                    <h6 class="project-box-text">Quizzical</h6>
+                    <hr id="rule">
+                    <h6 class="project-box-skills">MongoDB, Express, React, Node</h6>
+                </div>
+            </div>
+
+
+            <div class="project-box project-2" id="1">
+                <img class="project-box-image" src="./img/mongodb2.png" alt="admin-page-image">
+                <div class="project-box-middle">
+                    <h6 class="project-box-text">Admin Page</h6>
+                    <hr id="rule">
+                    <h6 class="project-box-skills">MongoDB, SQL, Node, Express</h6>
+                </div>
+            </div>
+
+
+            <div class="project-box project-3" id="2">
+                 <img class="project-box-image" src="./img/calculator2.png" alt="calculator-image">
+                <div class="project-box-middle">
+                    <h6 class="project-box-text">Calculator</h6>
+                    <hr id="rule">
+                    <h6 class="project-box-skills">React</h6>
+                </div>
+            </div>
+
+
+            <div class="project-box project-4" id="3">
+                 <img class="project-box-image" src="./img/insta2.png" alt="instagram-image">
+                <div class="project-box-middle">
+                    <h6 class="project-box-text">Instagram Clone</h6>
+                    <hr id="rule">
+                    <h6 class="project-box-skills">React</h6>
+                </div>
+            </div>
+
+
+            <div class="project-box project-5" id="4">
+                 <img class="project-box-image" src="./img/cityforecast1.png" alt="city-forecast-image">
+                <div class="project-box-middle">
+                    <h6 class="project-box-text">City Forecast</h6>
+                    <hr id="rule">
+                    <h6 class="project-box-skills">Node, Express</h6>
+                </div>
+            </div>
+
+
+            <div class="project-box project-6" id="5">
+                 <img class="project-box-image" src="./img/toptrumps.png" alt="top-trumps-image">
+                <div class="project-box-middle">
+                    <h6 class="project-box-text">Nutrition Top Trumps</h6>
+                    <hr id="rule">
+                    <h6 class="project-box-skills">Javascript</h6>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="fourth-container" id="contactContainer">
+        <a class="button" id="contactTitle" href="mailto:tmrdrgz@ymail.com"><span id="sayHello">Say hello!</span> ✉️</a>
+        <br>
+        <a class="contact-button" href="https://www.linkedin.com/in/tomrodriguez21/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a class="contact-button" href="http://github.com/rdrgz21">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <p class="copyright">© 2020 Tom Rodríguez.</p>
+    </div>
+    <div class="modal-bg">
+        <div class="project-modal" id="project1Modal">
+            <div class="project-model-content">
+                <h1 id="quizzicalTitle">Quizzical</h1>
+                <img class="modal-image" src="./img/quizzical1.png" alt="quizzical-image-1">
+                <p>A quiz app created using the MERN stack as part of the final project at Code Nation with my teammate Ethan.
+                    <br>
+                    <br>
+                    Users can create an account, log in, select a category and level of difficulty for their quiz, then answer 10 questions retrieved using an API.
+                    <br>
+                    <br>
+                    Scores and times can be submitted to a leaderboard which shows the current top ten ranking users. 
+                </p>
+                <img class="modal-image" src="./img/quizzical2.png" alt="quizzical-image-2">
+            </div>
+            <span class="modal-close" id="0">CLOSE</span>
+        </div>
+    </div>
+    <div class="modal-bg">
+        <div class="project-modal" id="project2Modal">
+            <div class="project-model-content">
+                <h1 id="quizzicalTitle">Admin Page</h1>
+                <img class="modal-image" src="./img/mongodb1.png" alt="quizzical-image-1">
+                <p>An admin page which displays all users registered to a database, along with their usernames and email addresses.
+                    <br>
+                    <br>
+                    The admin can choose to register new users, update current user details, or delete user accounts from the database entirely.
+                    <br>
+                    <br>
+                    The same site was made using both SQL and MongoDB databases.
+                </p>
+                <img class="modal-image" src="./img/mongodb2.png" alt="quizzical-image-2">
+            </div>
+            <span class="modal-close" id="1">CLOSE</span>
+        </div>
+    </div>
+    <div class="modal-bg">
+        <div class="project-modal" id="project3Modal">
+            <div class="project-model-content">
+                <h1 id="quizzicalTitle">Calculator</h1>
+                <img class="modal-image" src="./img/calculator1.png" alt="quizzical-image-1">
+                <p>A calculator created entirely with React, modelled on the MacOS calculator.
+                    <br>
+                    <br>
+                    The main functionality was coded within a class component. Different buttons are assigned separate functions which adjust the state of the numbers and operators to perform chained calculations.
+                </p>
+            </div>
+            <span class="modal-close" id="2">CLOSE</span>
+        </div>
+    </div>
+    <div class="modal-bg">
+        <div class="project-modal" id="project4Modal">
+            <div class="project-model-content">
+                <h1 id="quizzicalTitle">Instagram Clone</h1>
+                <img class="modal-image" src="./img/insta1.png" alt="quizzical-image-1">
+                <p>A mobile-first, responsive front-end clone created with React as part of a team project.
+                    <br>
+                    <br>
+                    Users can view and like posts, as well as leave comments.
+                </p>
+                <img class="modal-image" id="insta2" src="./img/insta2.png" alt="quizzical-image-2">
+            </div>
+            <span class="modal-close" id="3">CLOSE</span>
+        </div>
+    </div>
+    <div class="modal-bg">
+        <div class="project-modal" id="project5Modal">
+            <div class="project-model-content">
+                <h1 id="quizzicalTitle">City Forecast</h1>
+                <img class="modal-image" src="./img/cityforecast1.png" alt="quizzical-image-1">
+                <p>A weather API app made using Node & Express.
+                    <br>
+                    <br>
+                    Users can type in the name of a city and a country code to display the current weather in their chosen city. A list of example country codes is provided, which users can click to automatically insert into the search field.
+                    <br>
+                    <br>
+                    Separate pages specifically for Manchester and London with seven day forecasts are also included.</p>
+                <img class="modal-image" src="./img/cityforecast2.png" alt="quizzical-image-1">
+                <img class="modal-image" src="./img/cityforecast3.png" alt="quizzical-image-1">
+                <img class="modal-image" src="./img/cityforecast4.png" alt="quizzical-image-1">
+            </div>
+            <span class="modal-close" id="4">CLOSE</span>
+        </div>
+    </div>
+    <div class="modal-bg">
+        <div class="project-modal" id="project6Modal">
+            <div class="project-model-content">
+                <h1 id="quizzicalTitle">Nutrition Top Trumps</h1>
+                <img class="modal-image" src="./img/toptrumps.png" alt="quizzical-image-1">
+                <p>A nutrition-themed game to played in the terminal, based on the popular card game.
+                    <br>
+                    <br>
+                    A deck of thirty cards with different food items and their corresponding calories, carbs, fat and protein content is dealt between the player and computer.
+                    <br>
+                    <br>
+                    Users must use their judgement to choose the category they think is most likely to trump the computer's card. The player (or computer) that wins all thirty cards wins.
+                    <br>
+                    <br>
+                    Created to help practise using Javascript classes and array functions.
+                </p>
+            </div>
+            <span class="modal-close" id="5">CLOSE</span>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
