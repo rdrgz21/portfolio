@@ -85,23 +85,23 @@ jaBtn.addEventListener('click', () => {
 
 // About Me multilingual title
 
-let language = "english";
+// let language = "english";
 
-const aboutTitle = document.querySelector('#aboutTitle');
+// const aboutTitle = document.querySelector('#aboutTitle');
 
-aboutTitle.addEventListener('click', () => {
+// aboutTitle.addEventListener('click', () => {
 
-    if (language == "english") {
-        aboutTitle.textContent = "Sobre mí";
-        language = "spanish";
-    } else if (language = "spanish") {
-        aboutTitle.textContent = "私について";
-        language = "japanese";
-    }　else if (language = "japanese") {
-        aboutTitle.textContent = "About me";
-        language = "english";
-    }
-});
+//     if (language == "english") {
+//         aboutTitle.textContent = "Sobre mí";
+//         language = "spanish";
+//     } else if (language = "spanish") {
+//         aboutTitle.textContent = "私について";
+//         language = "japanese";
+//     }　else if (language = "japanese") {
+//         aboutTitle.textContent = "About me";
+//         language = "english";
+//     }
+// });
 
 // Project selection
 const projectBoxes = document.querySelectorAll(".project-box");
